@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"_listingvillager\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "market:villager/empty_market"
+    }
+  }
+  

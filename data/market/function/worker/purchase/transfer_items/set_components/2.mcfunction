@@ -1,0 +1,1 @@
+$item modify block 0 301 0 container.0 [{function:"set_components",components:$(components)}]

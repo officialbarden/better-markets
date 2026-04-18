@@ -1,0 +1,2 @@
+#$data remove storage pm:market Market[{buy:$(item0),owner:{uuid:$(uuid),username:$(username)}}]
+$data remove storage pm:market Market[{sell:{components:{"minecraft:custom_data":{"playerMarket":{stockID:$(stockID)}}}}}]

@@ -1,2 +1,2 @@
 # better-markets
-Sell Items in a Villager Trading UI &amp; Barter with Other Players!
+Sell Items in a Villager Trading UI & Barter with Other Players!
