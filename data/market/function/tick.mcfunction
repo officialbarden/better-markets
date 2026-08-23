@@ -18,7 +18,7 @@ tag @e remove _listingvillagermarker.temp
 execute as @e[type=marker,tag=_listingvillagermarker] at @s unless entity @e[type=villager,sort=nearest,limit=1,tag=_listingvillager,distance=..3] run kill @s
 execute as @e[type=text_display,tag=_listingvillager.td] at @s unless entity @e[type=villager,sort=nearest,limit=1,tag=_listingvillager,distance=..3] run kill @s
 
-execute as @e[type=villager,tag=_listingvillager] at @s run rotate @s facing entity @p
+execute as @e[tag=_listingvillager] at @s run rotate @s facing entity @p
 execute as @e[type=villager,tag=_listingvillager] run effect give @s slowness infinite 99 true
 advancement revoke @a only market:market_empty
 execute as @e[type=marker,tag=_listingvillagermarker] at @s run function market:commands/create_listing/5
