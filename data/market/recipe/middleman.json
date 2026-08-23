@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "pattern": [
+    " B ",
+    "BDB",
+    " B "
+  ],
+  "key": {
+    "B": "minecraft:iron_ingot",
+    "D": "minecraft:carved_pumpkin"
+  },
+  "result": {
+    "id": "minecraft:villager_spawn_egg",
+    "components": {
+      "minecraft:item_name": "The Middleman",
+      "minecraft:entity_data": {
+        "id": "minecraft:marker",
+        "Tags": [
+          "_listingvillagerspawner"
+        ],
+        "NoAI": true
+      }
+    }
+  }
+}
